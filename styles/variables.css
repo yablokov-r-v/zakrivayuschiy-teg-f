@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-color: rgba(255, 255, 255, 1);
+  --accent-color: rgba(0, 0, 0, 1);
+  --theme-menu__button-disabled-color: rgba(0, 0, 0, 0.6);
+  --article__image-container-before-text-color: rgba(0, 0, 0, 0.5);
+  --article__image-container-before-text-stroke-color: rgba(255, 255, 255, 0.5);
+  --main-font-family: "Inter";
+  --accent-font-family: "Press Start 2P";
+  --main-font-weight: "wght" 400;
+  --article__title-font-weight: "wght" 700;
+  --gradient-first-color: #e7e7e7;
+  --gradient-last-color: #1a1a1a;
+  --gradient-repeating-color: #d3d3d3;
+  --button__text-color-hover: rgba(255, 255, 255, 1);
+  --like-icon-contour-color: rgba(0, 0, 0, 1);
+  --like-icon-sparks-color: #ff0000;
+  --like-icon-main-body-color: rgba(255, 255, 255, 1);
+  --like-icon-core-color: rgba(255, 255, 255, 1);
+}
