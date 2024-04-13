@@ -12,3 +12,32 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes themeMenuDisabledButtonBeforeMove {
+    0% {
+      translate: 0;
+    }
+    100% {
+      translate: 4px;
+    }
+  }
+
+  @keyframes scaleHeart {
+    0% {
+      scale: 1;
+    }
+  
+    100% {
+      scale: 1.5;
+    }
+  }
+
+  @keyframes displaySparks {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
